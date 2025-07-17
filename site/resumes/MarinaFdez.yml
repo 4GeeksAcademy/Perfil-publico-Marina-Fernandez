@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marina
+    last_name: Fernandez Oria
+    
+    # Define yourself in 4-5 words
+    motto: Creativa, Activa & Autodidacta
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Comencé en el año 2010 a trabajar en diferentes puestos donde adquirí experiencia en atención al cliente y habilidades tales como el trabajo en equipo, responsabilidad y buena comunicación gracias a las labores desempeñadas como socorrista, dependienta y posteriormente encargada de tienda. Finalicé esta etapa en Baquiera-Beret en el departamento de taquillas y control de forfaits, donde descubrí la importancia de la organización en el trabajo y la disciplina.
+      En 2016 decidí dar un giro a mi carrera profesional y me matriculé en el curso de Desarrollo Web Full Stack de 4Geeks Academy, donde estoy aprendiendo a programar. Me considero una persona creativa, activa y autodidacta, siempre dispuesta a aprender y mejorar en mi trabajo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://instagram.fbcn9-1.fna.fbcdn.net/v/t51.2885-19/306936723_841548177006934_5938827418679267586_n.jpg?stp=dst-jpg_s320x320_tt6&_nc_ht=instagram.fbcn9-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2QGMKjqPVCuwNvhmxjrbfmjlu0XoZe2tVXqNEQ4WK4qPxKLJRf1b6jhey7qNg8kBff4&_nc_ohc=9iS_Bpy_0MoQ7kNvwG2J3k8&_nc_gid=uXsS5fEdN8jBARNdSOesuQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfSUpCwDdOhKCtWHOg5oCH7iTbmBp9fQ0gdeKZFKu0VS6Q&oe=687D9B3D&_nc_sid=8b3546
+
+    # Contact Information
+    email: mfz.oria@gmail.com #optional
+    phone: 234 2342 342 #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Marinafdez-o
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: B2
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+      - item: Padel
+
+      - item: Cocinar
+
+      - item: Viajar
+
+      - item: Esquiar
+
+# Your previous education
+education:
+    - degree: Grado en publicidad, marketing y relaciones públicas
+      university: Universitad Cesine
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2018
+      details: |
+        Beca de un año cursado en los Paises Bajos.
+
+        
+
+    - degree: Full Stack Development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - actualidad.
+      details: |
+        Curso de desarrollo web Full Stack, donde se aprende a programar en Python, JavaScript, HTML, CSS y bases de datos SQL y NoSQL.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Agente Comercial
+      time: 2018 - 2019
+      company: Inmobans
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+         Desarollar funciones tales como la atención y asesoramiento al cliente reconociendo sus necesidades. Captación y venta de inmuebles, redacción de informes, notaría y visitas.
+
+
+    - role: Dpto. Recaudación, Mancomunidad el Brusco.
+      time: 2020 -2022
+      company: Mancomunidad el Brusco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Funciones administrativas para 6 ayuntamientos relacionadas con la recaudación de impuestos, tasas y precios públicos. Atención al público, gestión de cobros y pagos, conciliación bancaria, archivo y gestión documental.
+
+    - role: Freelance
+      time: 2019 - 2025
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Community Manager y Social Media, donde se desarrollan funciones de gestión de redes sociales, creación de contenido, diseño gráfico y atención al cliente.
+        Diseño gráfico y edición de vídeo, donde se desarrollan funciones de creación de contenido visual para redes sociales, páginas web y publicidad. Creación de logos y páginas web para pequeñas empresas y autónomos, donde se desarrollan funciones de diseño y desarrollo web, creación de contenido y atención al cliente.
+        Asistencia y asesoría en labores de marketing digital con el objetivo de buscar el reconomiento de la marca y captación de clientes.
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 98%
+
+      - name: Indesign
+        level: 98%
+
+      - name: After Effects
+        level: 98%
+
+      - name: Premiere
+        level: 98%
